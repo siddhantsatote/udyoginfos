@@ -48,6 +48,10 @@
     background-color: #7492fc;
     color: white;
     font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .form form button:active {
+    background-color: #819cfc;
   }
   main {
     width: 20%;
@@ -69,8 +73,10 @@
   }
 </style>
 <div class="form">
+  <iframe name="dummyFrame" style="display: none"></iframe>
   <form
     action="https://docs.google.com/forms/d/e/1FAIpQLSd-F58V2V-Y0gLx_CZN5nngirMY0Fa1TXpc34X8AVkNT8ResA/formResponse?usp=pp_url"
+    target="dummyFrame"
   >
     <label>Category</label>
     <input name="entry.561752934" required />
